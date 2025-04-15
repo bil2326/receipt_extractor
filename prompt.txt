@@ -1,0 +1,10 @@
+Extract the following financial details from a given image of receipt (your answer must be in short JSON object.").
+Required_fields :
+{
+"date": "Date of transaction",
+"total_amount": "Amount including VAT",
+"currency": "Currency code (EUR, USD, etc.)",
+"vendor_name": "Company/vendor name",
+"vendor_address": "Full address",
+"vendor_contact": "Contact information"
+}
